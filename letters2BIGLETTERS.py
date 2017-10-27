@@ -11,7 +11,7 @@ word = word.lower()
 
 for string in range(len(letters['a'])):
     for char in word:
-        if char in ('qwertyuio pasdfghjklzxcvbnm'):
+        if char in ('qwertyuiopasdfghjklzxcvbnm ,.-+'):             # Проверка на допустимые символы
             for char_for_print in letters[char][string]:
                 if char_for_print == '':
                     file_output.write(' ')

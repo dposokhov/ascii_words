@@ -1,6 +1,11 @@
 # ascii_words
 
 Программа для вывода строки большими буквами, вида:
+
+
+
+
+
     A     BBBBBB    CCCCC  
    A A    B     B  C     C 
   A   A   B     B  C       

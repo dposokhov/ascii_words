@@ -4,9 +4,9 @@ from config import letters
 
 file_output = open('output.txt', 'w')
 
-strkeys = ''
-for key in letters.keys():
-    strkeys += key
+strkeys = ''.join(letters.keys())
+#for key in letters.keys():
+#    strkeys += key
 
 print('Please use only characters of " {} ". Other characters will not be displayed. Be patient'.format(strkeys))
 

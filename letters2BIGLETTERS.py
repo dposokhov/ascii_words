@@ -26,4 +26,3 @@ for string in range(letters.keys()):            # Вывожу построчн�
         else:
             continue
     file_output.write('\n')
-

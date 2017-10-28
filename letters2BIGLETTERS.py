@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from config import letters
+from config import letters, number_of_lines
 
 file_output = open('output.txt', 'w')
 
@@ -12,7 +12,7 @@ word = input('Please input word: ')
 print()                                         # Переход на новую строку
 word = word.lower()
 
-for string in range(letters.keys()):            # Вывожу построчно
+for string in range(number_of_lines):            # Вывожу построчно
     for char in word:
         if char in letters.keys():              # Проверка на допустимые символы
             for char_for_print in letters[char][string]:
